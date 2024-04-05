@@ -1,0 +1,55 @@
+.title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    justify-content: center;
+}
+
+.title__primary {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color:  #0A3A44;
+
+}
+
+.title__secondary {
+    color: rgba(33, 33, 33, 0.80);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.title__sub {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: var(--Brand-color-Dark, #0A3A44);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.learn__more__button {
+    display: flex;
+    width: 200px;
+    height: 55px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1.5px solid #5998A4;
+    background: var(--Brand-Color-Light, #E7F0F1);
+}
