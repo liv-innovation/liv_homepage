@@ -1,0 +1,50 @@
+.contact {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__container {
+    width: 320px;
+}
+.contact__greeting {
+    color: #5998A4;
+    font-family: Roboto;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contact__message {
+    color:  #0A3A44;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 4px;
+}
+
+.contact__details {
+    color:  #5998A4;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-wrap: nowrap;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contact__svg {
+    margin-right: 28px;
+}
