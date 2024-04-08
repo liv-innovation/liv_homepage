@@ -2,6 +2,13 @@
     font-family: sans-serif;
     margin: 0;
 }
+
+body {
+  background-image: url(./assets/bg1.svg), url(./assets/bg2.svg), url(./assets/bg1.svg);
+  background-repeat: no-repeat;
+  background-position: left top, right 200vh, left 300vh;
+  background-color: #E7F0F1;
+}
 .roboto-thin {
     font-family: "Roboto", sans-serif;
     font-weight: 100;

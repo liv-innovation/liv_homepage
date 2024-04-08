@@ -1,57 +1,18 @@
-.footer {
-    height: 80vh;
-    background: #0A3A44;
-}
-
-.footer__container {
-    margin-left: 12%;
-    margin-right: 12%;
-    height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.footer__details {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-around;
-    width: 100%;
-}
 
 .footer__sub {
     height: 10vh;
     background: #5998A4;
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: center;
+    color: #E7F0F1;
 }
 
-.footer__title {
-    color: var(--Brand-Color, #5998A4);
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 22px;
-    padding-bottom: 32px;
-}
-
-.footer__data {
-    color:  #CFD3D7;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 150%;
-    padding-bottom: 12px;
-}
-
-.footer__set {
-    display: flex;
-    align-items: center;
-}
-
-.footer__svg {
-    padding-bottom: 12px;
-    padding-right: 12px;
+@media (max-width: 767px) {
+    .footer__sub {
+        font-size: x-small;
+        justify-content: space-evenly;
+        height: 5vh;
+    }
 }

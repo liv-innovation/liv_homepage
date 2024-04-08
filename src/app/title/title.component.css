@@ -41,15 +41,23 @@
 }
 
 .learn__more__button {
+    border-radius: 50px;
+    border: 1.5px solid #5998A4;
+    background: #5998A4;
+    color: #F5F5F5;
     display: flex;
     width: 200px;
     height: 55px;
-    padding: 10px;
+    padding: 4px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
     flex-shrink: 0;
-    border-radius: 30px;
-    border: 1.5px solid #5998A4;
-    background: var(--Brand-Color-Light, #E7F0F1);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .title__primary {
+        font-size: 76px;
+    }
 }
