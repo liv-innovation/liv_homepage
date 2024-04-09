@@ -214,8 +214,8 @@
         mask-repeat: no-repeat;
         -webkit-mask-position: center;
         mask-position: center;
-        -webkit-mask-size: 175px;
-        mask-size: 175px;
+        -webkit-mask-size: contain;
+        mask-size: contain;
     }
     .product__1__img__mini > img {
         width: 100%;
@@ -272,8 +272,8 @@
         mask-repeat: no-repeat;
         -webkit-mask-position: center;
         mask-position: center;
-        -webkit-mask-size: 320px;
-        mask-size: 320px;
+        -webkit-mask-size: contain;
+        mask-size: contain;
     }
     .product__2__img__mini > img {
         width: 100%;
@@ -288,8 +288,8 @@
         mask-repeat: no-repeat;
         -webkit-mask-position: center;
         mask-position: center;
-        -webkit-mask-size: 270px;
-        mask-size: 270px;
+        -webkit-mask-size: contain;
+        mask-size: contain;
     }
     .product__3__img__mini > img {
         width: 100%;

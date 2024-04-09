@@ -1,5 +1,4 @@
 .title {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,5 +58,12 @@
 @media (max-width: 767px) {
     .title__primary {
         font-size: 76px;
+    }
+    .title__secondary {
+        font-size: 20px;
+    }
+    .title {
+        padding-left: 8px;
+        padding-right: 8px;
     }
 }

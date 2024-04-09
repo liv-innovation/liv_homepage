@@ -27,17 +27,24 @@
     </div>
 
     <div class="header__options">
-      <a class="header__item" href="#products">Products</a>
-      <a class="header__item" href="#about">About Us</a>
-      <a class="header__item" href="#contact">Contact</a>
-      <input class="header__item" type="checkbox"/>
+      <a class="header__item" href="#products">{{contentService.now.products}}</a>
+      <a class="header__item" href="#about">{{contentService.now.about}}</a>
+      <a class="header__item" href="#contact">{{contentService.now.contact}}</a>
+
+      <div class="switch">
+        <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox" (change)="contentService.changeLang()">
+        <label for="language-toggle"></label>
+        <span class="on">EN</span>
+        <span class="off">GE</span>
+      </div>
+      
     </div>
     <div class="dropdown">
       <span class="material-symbols-outlined dropbtn" (click)="toggleDropdown()">menu</span>
       <div class="dropdown-content" [ngClass]="{ 'show': isDropdownOpen }">
-        <a href="#products">Products</a>
-        <a href="#about">About Us</a>
-        <a href="#contact">Contact</a>
+        <a href="#products">{{contentService.now.products}}</a>
+        <a href="#about">{{contentService.now.about}}</a>
+        <a href="#contact">{{contentService.now.contact}}</a>
       </div>
     </div>
 </div>
