@@ -9,6 +9,13 @@
     color: #E7F0F1;
 }
 
+.footer__links > a {
+    padding-left: 8px;
+    padding-right: 8px;
+    text-decoration: underline;
+    color: #E7F0F1;
+
+}
 @media (max-width: 767px) {
     .footer__sub {
         font-size: x-small;

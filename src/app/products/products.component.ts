@@ -29,7 +29,7 @@ export class ProductsComponent implements AfterViewInit, OnDestroy {
     entries.forEach((entry: any) => {
       const rect = entry.getBoundingClientRect();
 
-      const isVisible = (rect.top >= -50 && rect.bottom <= window.innerHeight + 200);
+      const isVisible = (rect.top >= -100 && rect.bottom <= window.innerHeight + 500);
 
       if (isVisible && window.innerWidth >= 767) {
         
@@ -37,16 +37,17 @@ export class ProductsComponent implements AfterViewInit, OnDestroy {
           this.animationStarted = true;
           this.animationInterval = setInterval(() => {
             const products = document.getElementsByClassName('products__container');
+            console.log(this.animationCounter)
             if (products) {
               if (this.animationCounter < 2) {
-                products[this.animationCounter + 1].scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
                 this.animationCounter += 1;
+                products[this.animationCounter].scrollIntoView({ behavior: "smooth" });
               } else {
                 this.animationCounter = 0;
-                products[0].scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
+                products[this.animationCounter].scrollIntoView({ behavior: "smooth" });
               }
             }
-          }, 4000);
+          }, 5000);
         }
       } else {
         this.animationStarted = false;

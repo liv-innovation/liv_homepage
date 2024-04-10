@@ -1,0 +1,38 @@
+.data__protection__container {
+    padding-left: 12%;
+    padding-right: 12%;
+    color: #0A3A44;
+    padding-bottom: 20px;
+}
+.data__protection__container > div {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.data__protection__container > div > p {
+    /* padding-top: 4px; */
+    padding-bottom: 8px;
+}
+.data__protection__container > div > p > a {
+    padding-bottom: 8px;
+    text-decoration: underline;
+    color: #0A3A44;
+}
+.dp__heading {
+    font-weight: 700;
+    padding-bottom: 12px;
+    padding-top: 20px;
+}
+
+.dp__sub__heading {
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.dp__pre {
+    text-wrap: balance;
+}
+
+.dp__padding__top {
+    padding-top: 12px;
+}
