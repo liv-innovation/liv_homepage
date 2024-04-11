@@ -36,3 +36,14 @@
 .dp__padding__top {
     padding-top: 12px;
 }
+
+  @media (max-width: 767px) {
+
+    .data__protection__container > div > p > a {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+        max-width: 100%;
+    }
+}

@@ -203,7 +203,10 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        padding: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 12%;
+        padding-right: 12%;
     }
     .product__1__img__mini {
         object-fit: cover;
@@ -233,23 +236,24 @@
 
         position: relative;
         padding: 5%;
+        padding-top: 60px;
     }
     .product__1__number__mini {
         color: rgba(245, 245, 245, 0.10);
         font-family: Roboto;
-        font-size: 200px;
+        font-size: 120px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
         position: absolute;
-        top: -90px;
-        right: 0;
+        top: 0;
+        right: 8%;
     }
     .product__1__title__mini {
         color: #E7F0F1;
         text-align: left;
         font-family: Roboto;
-        font-size: 75px;
+        font-size: 52px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -257,11 +261,7 @@
     .product__1__desc__mini {
         text-align: left;
         color:  #E7F0F1;
-        font-family: Roboto;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
+        font-size: 18px;
     }
     .product__2__img__mini {
         object-fit: cover;
@@ -273,7 +273,7 @@
         -webkit-mask-position: center;
         mask-position: center;
         -webkit-mask-size: contain;
-        mask-size: contain;
+        mask-size: 300px;
     }
     .product__2__img__mini > img {
         width: 100%;
@@ -289,7 +289,7 @@
         -webkit-mask-position: center;
         mask-position: center;
         -webkit-mask-size: contain;
-        mask-size: contain;
+        mask-size: 260px;
     }
     .product__3__img__mini > img {
         width: 100%;

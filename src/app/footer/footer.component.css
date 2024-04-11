@@ -17,9 +17,9 @@
 
 }
 @media (max-width: 767px) {
+
     .footer__sub {
-        font-size: x-small;
         justify-content: space-evenly;
-        height: 5vh;
+        height: 10vh;
     }
 }

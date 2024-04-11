@@ -63,11 +63,16 @@
 
     .about__us__2 {
 
-        font-size: 75px;
+        font-size: 52px;
     }
     .about__us__3 {
 
         font-size: 24px;
+        padding-bottom: 12px;
+        padding-top: 12px;
+    }
+    .about {
+        height: 50vh;
     }
     
 }

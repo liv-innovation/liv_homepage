@@ -38,16 +38,20 @@
         margin-left: 0;
         margin-right: 0;
         padding: 40px;
+        height: 50%;
     }
 
    .vision__right {
     display: none;
    }
    .vision__title {
-    font-size: 75px;
+    font-size: 52px;
    }
    .vision__left {
     padding: 0;
+   }
+   .vision__details {
+    font-size: 24px;
    }
     
 }
