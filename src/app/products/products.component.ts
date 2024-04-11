@@ -12,7 +12,7 @@ export class ProductsComponent implements AfterViewInit, OnDestroy {
   animationCounter: number = 0;
   productWidth: number = window.innerWidth;
   contentService: ContentService = inject(ContentService);
-  
+
   ngAfterViewInit(): void {
     this.handleIntersection();
     window.addEventListener('scroll', this.handleIntersection);
@@ -28,26 +28,34 @@ export class ProductsComponent implements AfterViewInit, OnDestroy {
 
     entries.forEach((entry: any) => {
       const rect = entry.getBoundingClientRect();
-
-      const isVisible = (rect.top >= -100 && rect.bottom <= window.innerHeight + 500);
+      console.log(rect.top, rect.bottom, window.innerHeight)
+      console.log(rect.top >= -50 , rect.bottom <= window.innerHeight + 50 )
+      const isVisible = (rect.top >= -50 && rect.bottom <= window.innerHeight + 200);
 
       if (isVisible && window.innerWidth >= 767) {
         
         if (!this.animationStarted) {
           this.animationStarted = true;
           this.animationInterval = setInterval(() => {
-            const products = document.getElementsByClassName('products__container');
-            console.log(this.animationCounter)
+            const products = document.getElementById('products');
             if (products) {
+              let currentScrollLeft = products.scrollLeft,
+              newScrollLeft = 0;
               if (this.animationCounter < 2) {
                 this.animationCounter += 1;
-                products[this.animationCounter].scrollIntoView({ behavior: "smooth" });
+                newScrollLeft = currentScrollLeft + this.productWidth;
               } else {
                 this.animationCounter = 0;
-                products[this.animationCounter].scrollIntoView({ behavior: "smooth" });
+                let scroll_width = (2 * this.productWidth);
+                newScrollLeft = currentScrollLeft - scroll_width;
               }
+              debugger
+              products.scrollTo({
+                left: newScrollLeft - products.scrollLeft % this.productWidth,
+                behavior: 'smooth'
+              });
             }
-          }, 5000);
+          }, 3000);
         }
       } else {
         this.animationStarted = false;
