@@ -1,34 +1,25 @@
-[debug] [2024-04-11T17:20:59.132Z] ----------------------------------------------------------------------
-[debug] [2024-04-11T17:20:59.133Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
-[debug] [2024-04-11T17:20:59.133Z] CLI Version:   12.4.0
-[debug] [2024-04-11T17:20:59.133Z] Platform:      darwin
-[debug] [2024-04-11T17:20:59.134Z] Node Version:  v18.10.0
-[debug] [2024-04-11T17:20:59.134Z] Time:          Thu Apr 11 2024 22:50:59 GMT+0530 (India Standard Time)
-[debug] [2024-04-11T17:20:59.134Z] ----------------------------------------------------------------------
+[debug] [2024-04-13T15:31:12.925Z] ----------------------------------------------------------------------
+[debug] [2024-04-13T15:31:12.926Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2024-04-13T15:31:12.926Z] CLI Version:   12.4.0
+[debug] [2024-04-13T15:31:12.927Z] Platform:      darwin
+[debug] [2024-04-13T15:31:12.927Z] Node Version:  v18.10.0
+[debug] [2024-04-13T15:31:12.927Z] Time:          Sat Apr 13 2024 21:01:12 GMT+0530 (India Standard Time)
+[debug] [2024-04-13T15:31:12.928Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2024-04-11T17:20:59.167Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-04-11T17:20:59.167Z] > authorizing via signed-in user (garunk09@gmail.com)
-[debug] [2024-04-11T17:20:59.167Z] [iam] checking project liv-homepage for permissions ["firebase.projects.get","firebasehosting.sites.update"]
-[debug] [2024-04-11T17:20:59.169Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/liv-homepage:testIamPermissions [none]
-[debug] [2024-04-11T17:20:59.169Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/liv-homepage:testIamPermissions x-goog-quota-user=projects/liv-homepage
-[debug] [2024-04-11T17:20:59.169Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/liv-homepage:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2024-04-11T17:21:00.419Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/liv-homepage:testIamPermissions 200
-[debug] [2024-04-11T17:21:00.419Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/liv-homepage:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2024-04-11T17:21:00.420Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/liv-homepage [none]
-[debug] [2024-04-11T17:21:00.738Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/liv-homepage 200
-[debug] [2024-04-11T17:21:00.738Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/liv-homepage {"projectId":"liv-homepage","projectNumber":"148223649611","displayName":"liv-homepage","name":"projects/liv-homepage","resources":{"hostingSite":"liv-homepage"},"state":"ACTIVE","etag":"1_5350e49e-af43-4672-8443-6f125987d9d6"}
+[debug] [2024-04-13T15:31:12.961Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-13T15:31:12.962Z] > authorizing via signed-in user (garunk09@gmail.com)
+[debug] [2024-04-13T15:31:12.962Z] [iam] checking project liv-homepage for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-04-13T15:31:12.963Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/liv-homepage:testIamPermissions [none]
+[debug] [2024-04-13T15:31:12.963Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/liv-homepage:testIamPermissions x-goog-quota-user=projects/liv-homepage
+[debug] [2024-04-13T15:31:12.963Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/liv-homepage:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-04-13T15:31:14.264Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/liv-homepage:testIamPermissions 200
+[debug] [2024-04-13T15:31:14.264Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/liv-homepage:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-04-13T15:31:14.265Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/liv-homepage [none]
+[debug] [2024-04-13T15:31:14.856Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/liv-homepage 200
+[debug] [2024-04-13T15:31:14.857Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/liv-homepage {"projectId":"liv-homepage","projectNumber":"148223649611","displayName":"liv-homepage","name":"projects/liv-homepage","resources":{"hostingSite":"liv-homepage"},"state":"ACTIVE","etag":"1_5350e49e-af43-4672-8443-6f125987d9d6"}
 [info] 
 [info] === Deploying to 'liv-homepage'...
 [info] 
 [info] i  deploying hosting 
-[debug] [2024-04-11T17:21:00.745Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/liv-homepage/versions [none]
-[debug] [2024-04-11T17:21:00.745Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/liv-homepage/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
-[debug] [2024-04-11T17:21:02.095Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/liv-homepage/versions 200
-[debug] [2024-04-11T17:21:02.096Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/liv-homepage/versions {"name":"projects/148223649611/sites/liv-homepage/versions/5272abf60c57414f","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
-[info] i  hosting[liv-homepage]: beginning deploy... 
-[info] i  hosting[liv-homepage]: found 32 files in dist/test 
-[debug] [2024-04-11T17:21:02.107Z] [hosting] uploading with 200 concurrency
-[debug] [2024-04-11T17:21:02.161Z] [hosting] hash cache [ZGlzdC90ZXN0] stored for 32 files
-[debug] [2024-04-11T17:21:02.161Z] [hosting][hash queue][FINAL] {"max":45,"min":8,"avg":12.4375,"active":0,"complete":32,"success":32,"errored":0,"retried":0,"total":32,"elapsed":50}
-[debug] [2024-04-11T17:21:02.161Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/148223649611/sites/liv-homepage/versions/5272abf60c57414f:populateFiles [none]
-[debug] [2024-04-11T17:21:02.161Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/148223649611/sites/liv-homepage/versions/5272abf60c57414f:populateFiles {"files":{"/bg2.97c2417de603225d.svg":"b63aec04f1e98d7f314a6cebd047b1f9eba0a4d5deb00023d590276750781b12","/favicon.ico":"a2aee5309d0b59b9b66384ccc3969a07fab1b320d0bf76f1b25047a051d7f774","/404.html":"05cbc6f94d7a69ce2e29646eab13be2c884e61ba93e3094df5028866876d18b3","/bg1.61d3cd5fffe61163.svg":"2a0776d6672a7891ead10e5bbefd7c0e8015181ef3441eaa044a70239fc92da4","/mask2_mini.51f54221960d993b.svg":"00e822a20f8b961365f8a72a787ad81bb8731f3e776f6a62fa9daee15bcf4786","/mask1_mini.7bcb8b4ca4242c26.svg":"4b2c1f4f3e37f3f3d65a598aa19cc56a3358e0220906ab3bfc5e5e2982078937","/3rdpartylicenses.txt":"60765af16c10515aeb68e18694277f2a2613f76efcfb87335aaccbcd052312db","/index.html":"74c267e7047f77372a72cfb936905ecdb1636300433ec186fb310bee636f40e5","/mask3.c629bfee229a944d.png":"114b69c98e0501430efc3e77bd010e74f27babe3acc9d9fb23b76153e9edf3e7","/mask3_mini.4c2e2f1f34bc4752.svg":"b1512621e46a1934005378ef2e060c81cf55df91af2de439370c446a7a4e22a4","/mask1.a0cf23e8ef58efaf.png":"e8e260daad757729fb2f4519673fb65e73f50bade01553bab3dcf78ef97a5596","/runtime.ba33254e98283075.js":"f709269efc71dffe3e2bce49ea08ea68aff272194325305058f78a608770e3e9","/styles.c60e29f5bbad4a8c.css":"e3709341e59f27fa7cc87831e078cf0885833bdf6f20f7294bd49150c743d744","/mask2.111612f84cada42e.png":"e10dcccf7357125fd322ff5a3fd117a97f25aa8f8e4f831f14dcd4b018e66884","/polyfills.f66fd1c7f52b83bc.js":"60be2702b0a0960d64cc1ca642cfcfe7808837181dcedebcff1e27797e1d0724","/assets/bg2.svg":"b63aec04f1e98d7f314a6cebd047b1f9eba0a4d5deb00023d590276750781b12","/assets/bg3.svg":"288310af37a2ad0491dc416b104379144d91355f5e3ad01849d15e3eb51e6710","/assets/bg4.svg":"09c29933215dc419e5679b64b94f195c7fcd67beccbb94e585108a637e9b8bc7","/assets/bg1.svg":"2a0776d6672a7891ead10e5bbefd7c0e8015181ef3441eaa044a70239fc92da4","/assets/mask1_mini.svg":"4b2c1f4f3e37f3f3d65a598aa19cc56a3358e0220906ab3bfc5e5e2982078937","/assets/logo.png":"11f3be083259f137bcc1d92345df8d38cec7b4bbd71714b4e9416856c6628c0e","/assets/mask2_mini.svg":"00e822a20f8b961365f8a72a787ad81bb8731f3e776f6a62fa9daee15bcf4786","/assets/mask3_mini.svg":"b1512621e46a1934005378ef2e060c81cf55df91af2de439370c446a7a4e22a4","/assets/mask3.png":"114b69c98e0501430efc3e77bd010e74f27babe3acc9d9fb23b76153e9edf3e7","/assets/mask2.png":"e10dcccf7357125fd322ff5a3fd117a97f25aa8f8e4f831f14dcd4b018e66884","/assets/mask1.png":"e8e260daad757729fb2f4519673fb65e73f50bade01553bab3dcf78ef97a5596","/assets/e4a470734b8e30584813390811637127.jpeg":"79e72d557d8c5fdd941019c92c279ce1a2651286ba93345c680d42975adc154a","/assets/8b534cf12c8a7b5f14d3340907a55879.jpeg":"a4d5ee80f310d238d75c964a3c1db3eadbd03bb0a5ad02bafaac39ae8f8476f9","/main.5c1f9f9ece4dd367.js":"47477cd1d426615b964036c2d15eb0b9dbbda07f3216e2f338a30a8401a9efab","/assets/b1128c019eac3ec0e602c73d6785a713.jpeg":"73fb241e276bf824c30fc3fe240b47331da21d19e43534aff3806a5aaad685a7","/assets/about.jpeg":"3ffd1c8d5eed47cca2171292e03a3724bf51a7fb33730b1563665c349ca41677","/assets/testimonial.png":"564d2205456f28f060f8ac0520d79a08523e98a2539165c6db6d9816bc392ea1"}}
+[debug] [2024-04-13T15:31:14.861Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/liv-homepage/versions [none]
+[debug] [2024-04-13T15:31:14.861Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/liv-homepage/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}

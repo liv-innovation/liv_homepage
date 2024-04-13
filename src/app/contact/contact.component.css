@@ -1,5 +1,5 @@
 .contact {
-    height: 100vh;
+    height: 84vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,7 +49,7 @@
     margin-right: 28px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .contact__container {
         display: flex;
         flex-direction: column;
@@ -57,7 +57,7 @@
         justify-content: center;
     }
     .contact {
-        height: 100vh;
+        height: 84vh;
     }
     .contact__greeting {
         text-align: center;

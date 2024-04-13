@@ -7,4 +7,13 @@ import { ContentService } from '../content.service';
 })
 export class TitleComponent {
   contentService: ContentService = inject(ContentService);
+  goto(id: string) {
+
+    let height = window.innerWidth <= 768 ? 0.12 : 0.16;
+    let element = document.getElementById(id);
+      window.scrollTo({
+        top: element!.offsetTop - (height * window.innerHeight),
+        behavior: 'smooth'
+      })
+  }
 }

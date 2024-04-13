@@ -37,7 +37,7 @@
     padding-top: 12px;
 }
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
 
     .data__protection__container > div > p > a {
         white-space: nowrap;

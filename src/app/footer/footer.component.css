@@ -16,7 +16,7 @@
     color: #E7F0F1;
 
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
     .footer__sub {
         justify-content: space-evenly;

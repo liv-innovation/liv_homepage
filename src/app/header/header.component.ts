@@ -6,9 +6,20 @@ import { ContentService } from '../content.service';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  isDropdownOpen:boolean = false
+  isDropdownOpen:boolean = false;
   contentService: ContentService = inject(ContentService);
   toggleDropdown() {
-    this.isDropdownOpen != this.isDropdownOpen
+    this.isDropdownOpen = !this.isDropdownOpen
+  }
+  goto(id: string) {
+    if (id != 'home') {
+      this.isDropdownOpen = !this.isDropdownOpen;
+    }
+    let height = window.innerWidth <= 768 ? 0.12 : 0.16;
+    let element = document.getElementById(id);
+      window.scrollTo({
+        top: element!.offsetTop - (height * window.innerHeight),
+        behavior: 'smooth'
+      })
   }
 }
