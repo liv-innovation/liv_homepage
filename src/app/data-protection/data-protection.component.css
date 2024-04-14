@@ -1,6 +1,7 @@
 .data__protection__container {
     padding-left: 12%;
     padding-right: 12%;
+    padding-top: 4%;
     color: #0A3A44;
     padding-bottom: 20px;
 }
@@ -36,7 +37,30 @@
 .dp__padding__top {
     padding-top: 12px;
 }
-
+.learn__more {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+.learn__more__button {
+    border-radius: 50px;
+    border: 1.5px solid #5998A4;
+    background: #5998A4;
+    color: #F5F5F5;
+    display: flex;
+    width: 200px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+.learn__more__button:hover {
+    background-color: var(--body-color);
+}
   @media (max-width: 768px) {
 
     .data__protection__container > div > p > a {

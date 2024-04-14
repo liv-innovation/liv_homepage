@@ -23,8 +23,11 @@ export class AboutComponent {
     const isVisible = (rect!.top >= -window.innerHeight && rect!.bottom <= window.innerHeight + 200);
     if (isVisible) {
       document.getElementById('about__option')!.style.color = "var(--title-color)"
+      document.getElementById('about__option')!.style.fontWeight = "bold";
+
     } else {
       document.getElementById('about__option')!.style.color = "var(--body-color)"
+      document.getElementById('about__option')!.style.fontWeight = "normal";
     }
   }
 }

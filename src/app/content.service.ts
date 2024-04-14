@@ -27,7 +27,7 @@ export class ContentService {
     'love_to_hear': 'We’d love to hear from you.Here’s how you can reach us...',
     'imprint': 'Imprint',
     'data_protection': 'Data protection',
-    'address': 'Bornheimer Landwehr 33, 60385 Frankfurt',
+    'address': 'Bornheimer Landwehr 33, 60385 Frankfurt am Main, Germany',
     'mobile': 'Phone +49 179 221 1285',
     'mail': 'E-mail: info@liv-innovation.com',
     'imprint_content_1': 'Sales tax identification number according to § 27a UStG: follows...........',
@@ -121,8 +121,8 @@ export class ContentService {
     'public_6': "The company is certified according to the “EU-US Data Privacy Framework” (DPF). The DPF is an agreement between the European Union and the USA that is intended to ensure compliance with European data protection standards when data is processed in the USA. Every DPF certified company undertakes to comply with these data protection standards. Further information on this can be obtained from the provider at the following link: https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt000000001L5AAI&status=Active",
     'public_7': "Google Fonts (local hosting)",
     'public_8': "This site uses so-called Google Fonts, which are provided by Google, for the uniform display of fonts. The Google Fonts are installed locally. There is no connection to Google servers.",
-    'public_9': "Further information about Google Fonts can be found at https://developers.google.com/fonts/faq and in Google's privacy policy: https://policies.google.com/privacy?hl=de."
-
+    'public_9': "Further information about Google Fonts can be found at https://developers.google.com/fonts/faq and in Google's privacy policy: https://policies.google.com/privacy?hl=de.",
+    'home': 'Home'
   };
   content = {
     'en': {
@@ -146,7 +146,7 @@ export class ContentService {
       'love_to_hear': 'We’d love to hear from you.Here’s how you can reach us...',
       'imprint': 'Imprint',
       'data_protection': 'Data protection',
-      'address': 'Bornheimer Landwehr 33, 60385 Frankfurt',
+      'address': 'Bornheimer Landwehr 33, 60385 Frankfurt am Main, Germany',
       'mobile': 'Phone +49 179 221 1285',
       'mail': 'E-mail: info@liv-innovation.com',
       'imprint_content_1': 'Sales tax identification number according to § 27a UStG: follows...........',
@@ -224,7 +224,7 @@ export class ContentService {
       'general_12': '5. Social media',
       'general_12_1': 'Instagram',
       'general_12_2': 'Functions of the Instagram service are integrated into this website. These functions are offered by Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Ireland. If the social media element is active, a direct connection is established between your device and the Instagram server. Instagram thereby receives information about your visit to this website. If you are logged into your Instagram account, you can link the content of this website to your Instagram profile by clicking on the Instagram button. This allows Instagram to assign your visit to this website to your user account. We would like to point out that as the provider of the pages, we have no knowledge of the content of the transmitted data or its use by Instagram. The use of this service is based on your consent in accordance with Article 6 Paragraph 1 Letter a GDPR and Section 25 Paragraph 1 TTDSG. Consent can be revoked at any time. To the extent that personal data is collected on our website using the tool described here and forwarded to Facebook or Instagram, we and Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Ireland are jointly responsible for this data processing ( Art. 26 GDPR). The joint responsibility is limited exclusively to collecting the data and passing it on to Facebook or Instagram. The processing carried out by Facebook or Instagram after forwarding is not part of the shared responsibility. Our joint obligations have been set out in a joint processing agreement.',
-      'general_12_3': 'The text of the agreement can be found at: https://www.facebook.com/legal/controller_addendum.',
+      'general_12_3': 'The text of the agreement can be found at:',
       'general_12_4': 'According to this agreement, we are responsible for providing data protection information when using the Facebook or Instagram tool and for the data protection-safe implementation of the tool on our website. Facebook is responsible for the data security of Facebook and Instagram products. You can assert data subject rights (e.g. requests for information) regarding the data processed by Facebook or Instagram directly on Facebook. If those affected assert their rights with us, we are obliged to forward these to Facebook.',
       'general_12_5': "Data transfer to the USA is based on the EU Commission's standard contractual clauses. Details can be found here:",
       'general_12_6': "Further information can be found in Instagram's privacy policy",
@@ -240,8 +240,8 @@ export class ContentService {
       'public_6': "The company is certified according to the “EU-US Data Privacy Framework” (DPF). The DPF is an agreement between the European Union and the USA that is intended to ensure compliance with European data protection standards when data is processed in the USA. Every DPF certified company undertakes to comply with these data protection standards. Further information on this can be obtained from the provider at the following link:",
       'public_7': "Google Fonts (local hosting)",
       'public_8': "This site uses so-called Google Fonts, which are provided by Google, for the uniform display of fonts. The Google Fonts are installed locally. There is no connection to Google servers.",
-      'public_9': "Further information about Google Fonts can be found at https://developers.google.com/fonts/faq and in Google's privacy policy:"
-
+      'public_9': "Further information about Google Fonts can be found at https://developers.google.com/fonts/faq and in Google's privacy policy:",
+      'home': 'Home'
 
     },
     'ge': {
@@ -259,13 +259,13 @@ export class ContentService {
       'product_3': 'Integration',
       'product_3_desc': 'Möchten Sie manuelle Prozesse automatisieren und in Ihren bisherigen Ablauf integrieren? Bei LIV Innovation bieten wir Automatisierungslösungen, die auf Ihre spezifischen Anforderungen zugeschnitten sind.',
       'about_us': 'LIV Innovation möchte Unternehmen dabei unterstützen, intelligenter und effizienter zu arbeiten. Wir glauben an die Kraft der Automatisierung, um repetitive Aufgaben zu übernehmen und menschliche Ressourcen für kreative und strategische Herausforderungen freizusetzen.',
-      'vision': 'Our Vision & Mission',
+      'vision': 'Unsere Vision & Auftrag',
       'vision_mission': 'Unsere Vision ist es, eine Welt zu schaffen, in der Technologie die menschliche Leistungsfähigkeit erweitert und Unternehmen dabei hilft, ihre Ziele zu erreichen.',
       'hello': 'Hallo!',
       'love_to_hear': 'Wir würden uns freuen, von Ihnen zu hören. Hier erfahren Sie, wie Sie uns erreichen können...',
       'imprint': 'Impressum',
       'data_protection': 'Datenschutz',
-      'address': 'Bornheimer Landwehr 33, 60385 Frankfurt',
+      'address': 'Bornheimer Landwehr 33, 60385 Frankfurt am Main, Germany',
       'mobile': 'Telefon: +49 179 221 1285',
       'mail': 'E-mail: info@liv-innovation.com',
       'imprint_content_1': 'Umsatzsteueridentifikationsnummer nach § 27a UStG: folgt………..',
@@ -361,7 +361,8 @@ export class ContentService {
       'public_6': "Das Unternehmen verfügt über eine Zertifizierung nach dem „EU-US Data Privacy Framework“ (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie vom Anbieter unter folgendem Link:",
       'public_7': "Google Fonts (local hosting)",
       'public_8': "Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Google Fonts, die von Google bereitgestellt werden. Die Google Fonts sind lokal installiert. Eine Verbindung zu Servern von Google findet dabei nicht statt.",
-      'public_9': "Weitere Informationen zu Google Fonts finden Sie unter https://developers.google.com/fonts/faq und in der Datenschutzerklärung von Google: https://policies.google.com/privacy?hl=de."
+      'public_9': "Weitere Informationen zu Google Fonts finden Sie unter https://developers.google.com/fonts/faq und in der Datenschutzerklärung von Google: https://policies.google.com/privacy?hl=de.",
+      'home': 'Heim'
     }
   }
 

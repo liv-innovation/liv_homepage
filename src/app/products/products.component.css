@@ -270,7 +270,7 @@
         font-weight: 700;
         line-height: normal;
         position: absolute;
-        top: 0;
+        top: -30px;
         right: 8%;
     }
     .product__1__title__mini {

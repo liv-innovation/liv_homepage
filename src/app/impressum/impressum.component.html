@@ -1,8 +1,8 @@
 <div class="impressum">
     <div class="impressum__container">
-        <h2 class="impressum__title">
+        <h1 class="impressum__title">
            {{contentService.now.imprint}} 
-        </h2>
+        </h1>
         <div>
             <p class="impressum__heading">
                 {{contentService.now.liv_innovation}}
@@ -50,5 +50,11 @@
                 {{contentService.now.external_4}}
             </p>
         </div>
+        <div class="learn__more">
+            <a class="learn__more__button" (click)="goto('home')">
+                {{contentService.now.home}}
+            </a>
+        </div>
+
     </div>
 </div>

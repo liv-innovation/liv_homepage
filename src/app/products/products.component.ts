@@ -32,9 +32,13 @@ export class ProductsComponent implements AfterViewInit, OnDestroy {
       const isVisible = (rect.top >= -500 && rect.bottom <= window.innerHeight + 200);
       const badges = document.getElementsByClassName('products__badge');
       if (isVisible) {
-        document.getElementById('products__option')!.style.color = "var(--title-color)"
+        document.getElementById('products__option')!.style.color = "var(--title-color)";
+        document.getElementById('products__option')!.style.fontWeight = "bold";
+
       } else {
-        document.getElementById('products__option')!.style.color = "var(--body-color)"
+        document.getElementById('products__option')!.style.color = "var(--body-color)";
+        document.getElementById('products__option')!.style.fontWeight = "normal";
+
       }
       if (isVisible && window.innerWidth > 768) {
         if (!this.animationStarted) {

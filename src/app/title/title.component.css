@@ -36,7 +36,7 @@
 .title__sub {
     margin-top: 40px;
     margin-bottom: 40px;
-    color: var(--Brand-color-Dark, #0A3A44);
+    color: #0A3A44;
     text-align: center;
     font-family: Roboto;
     font-size: 18px;
@@ -60,6 +60,9 @@
     flex-shrink: 0;
     cursor: pointer;
     text-decoration: none;
+}
+.learn__more__button:hover {
+    background-color: var(--body-color);
 }
 
 @media (max-width: 768px) {
@@ -85,7 +88,6 @@
         background: #5998A4;
         color: #F5F5F5;
         display: flex;
-        width: 100px;
         height: 24px;
         padding: 8px;
         justify-content: center;

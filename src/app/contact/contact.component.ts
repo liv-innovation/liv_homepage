@@ -19,9 +19,13 @@ export class ContactComponent {
     const rect = document.getElementById('contact')?.getBoundingClientRect();
     const isVisible = (rect!.top >= -60 && rect!.bottom <= window.innerHeight + 200);
     if (isVisible) {
-      document.getElementById('contact__option')!.style.color = "var(--title-color)"
+      document.getElementById('contact__option')!.style.color = "var(--title-color)";
+      document.getElementById('contact__option')!.style.fontWeight = "bold";
+
     } else {
-      document.getElementById('contact__option')!.style.color = "var(--body-color)"
+      document.getElementById('contact__option')!.style.color = "var(--body-color)";
+      document.getElementById('contact__option')!.style.fontWeight = "normal";
+
     }
   }
 }
