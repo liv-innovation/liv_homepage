@@ -60,7 +60,7 @@ export class ProductsComponent implements AfterViewInit, OnDestroy {
                 this.animationCounter = 0;
               }
             }
-          }, 3000);
+          }, 8000);
         }
       } else {
         this.animationStarted = false;

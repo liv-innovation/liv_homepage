@@ -1,11 +1,14 @@
-import { Component } from '@angular/core';
-
+import { Component,inject } from '@angular/core';
+import { ContentService } from '../content.service';
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent {
+
+  contentService: ContentService = inject(ContentService);
+  
   ngAfterViewInit(): void {
     this.handleIntersection();
     window.addEventListener('scroll', this.handleIntersection);

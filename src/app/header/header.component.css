@@ -128,22 +128,27 @@
   
   input.check-toggle-round-flat:checked ~ .off {
     color: #5998A4;
+    font-weight: bolder;
+
   }
   
   input.check-toggle-round-flat:checked ~ .on {
     color: #fff;
+    font-weight: 100;
   }
   
   .switch > span.on {
     left: 0;
     top: 6px;
     color: #5998A4;
+    font-weight: bolder;
   }
   
   .switch > span.off {
     right: 0;
     top: 6px;
     color: #fff;
+    font-weight: 100;
   }
   
   .check-toggle {
@@ -198,6 +203,10 @@
   
   input.check-toggle-round-flat:checked + label:after {
     margin-left: 44px;
+  }
+
+  .close__icon {
+    color:#5998A4;
   }
 
 @media (max-width: 1024px) {

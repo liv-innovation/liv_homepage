@@ -22,7 +22,7 @@
 }
 .vision__title {
     font-family: Roboto;
-    font-size: 7vw;
+    font-size: 62px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -59,7 +59,7 @@
     display: none;
    }
    .vision__title {
-    font-size: 52px;
+    font-size: 12vw;
     align-self: start;
    }
    .vision__left {
