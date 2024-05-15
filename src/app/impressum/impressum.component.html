@@ -7,15 +7,16 @@
             <p class="impressum__heading">
                 {{contentService.now.liv_innovation}}
             </p>
-            <p>
-                {{contentService.now.address}}
-            </p>
-            <p>
-                {{contentService.now.mobile}}
-            </p>
-            <p>
-                {{contentService.now.mail}}
-            </p>
+            <div style="line-height: 20px; padding-bottom: 4px; padding-top: 4px;">
+                <p>{{contentService.address.address_1}}</p>
+                <p>{{contentService.address.address_2}}</p>
+                <p>{{contentService.address.address_3}}</p>
+            </div>
+            <div style="line-height: 20px; padding-bottom: 4px; padding-top: 4px;">
+                <p>{{contentService.now.mobile}}</p>
+                <span>E-Mail: </span><span style="text-decoration: underline;">{{contentService.now.mail}}</span>
+            </div>
+
         </div>
         <div>
             <p>

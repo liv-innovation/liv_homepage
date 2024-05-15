@@ -6,6 +6,11 @@ import { Injectable } from '@angular/core';
 export class ContentService {
 
   isEnglish:boolean = true;
+  address = {
+    'address_1':'Bornheimer Landwehr 33 ',
+    'address_2':'60385 Frankfurt am Main',
+    'address_3':'Germany',
+  };
   now = {
     'products': 'Products',
     'about': 'About us',
@@ -28,9 +33,9 @@ export class ContentService {
     'imprint': 'Imprint',
     'data_protection': 'Data protection',
     'address': 'Bornheimer Landwehr 33 60385 Frankfurt am Main Germany',
-    'mobile': 'Phone +49 179 221 1285',
-    'mail': 'E-mail: info@liv-innovation.com',
-    'imprint_content_1': 'Sales tax identification number according to § 27a UStG: DE367333136',
+    'mobile': 'Phone: +49 179 221 1285',
+    'mail': ' info@liv-innovation.com',
+    'imprint_content_1': 'Tax ID (USt-ID) according to § 27a UStG: DE367333136',
     'liability': 'Limitation of liability:',
     'liability_1': 'Contents of the LIV Innovation website',
     'liability_2': "The content of the LIV Innovation website has been compiled with the greatest possible care. However, LIV Innovation assumes no liability for the accuracy, completeness and timeliness of the content provided. The use of the retrievable content is at the user's own risk.",
@@ -62,7 +67,7 @@ export class ContentService {
     'hosting_2': 'IONOS',
     'hosting_3': "The provider is IONOS SE, Elgendorfer Str. 57, 56410 Montabaur (hereinafter referred to as IONOS). When you visit our website, IONOS collects various log files including your IP addresses. For details, please refer to IONOS's privacy policy:",
     'hosting_4': "IONOS is used on the basis of Art. 6 para. 1 lit. f GDPR. We have a legitimate interest in displaying our website as reliably as possible. If a corresponding consent has been requested, the processing is carried out exclusively on the basis of Art. 6 para. 1 lit. a GDPR and § 25 para. 1 TTDSG, insofar as the consent includes the storage of cookies or access to information in the user's terminal device (e.g. device fingerprinting) within the meaning of the TTDSG. Consent can be revoked at any time.",
-    'general': '3 General notes and mandatory information',
+    'general': '3. General notes and mandatory information',
     'general_1': 'Data protection',
     'general_1_1': 'The operators of these pages take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the statutory data protection regulations and this privacy policy. When you use this website, various personal data is collected. Personal data is data with which you can be personally identified. This privacy policy explains what data we collect and what we use it for. It also explains how and for what purpose this is done. We would like to point out that data transmission over the Internet (e.g., when communicating by email) may have security vulnerabilities. Complete protection of data against access by third parties is not possible.',
     'general_2': 'Note on the responsible body',
@@ -150,9 +155,9 @@ export class ContentService {
     'imprint': 'Imprint',
     'data_protection': 'Data protection',
     'address': 'Bornheimer Landwehr 33 60385 Frankfurt am Main Germany',
-    'mobile': 'Phone +49 179 221 1285',
-    'mail': 'E-mail: info@liv-innovation.com',
-    'imprint_content_1': 'Sales tax identification number according to § 27a UStG: DE367333136',
+    'mobile': 'Phone: +49 179 221 1285',
+    'mail': ' info@liv-innovation.com',
+    'imprint_content_1': 'Tax ID (USt-ID) according to § 27a UStG: DE367333136',
     'liability': 'Limitation of liability:',
     'liability_1': 'Contents of the LIV Innovation website',
     'liability_2': "The content of the LIV Innovation website has been compiled with the greatest possible care. However, LIV Innovation assumes no liability for the accuracy, completeness and timeliness of the content provided. The use of the retrievable content is at the user's own risk.",
@@ -184,7 +189,7 @@ export class ContentService {
     'hosting_2': 'IONOS',
     'hosting_3': "The provider is IONOS SE, Elgendorfer Str. 57, 56410 Montabaur (hereinafter referred to as IONOS). When you visit our website, IONOS collects various log files including your IP addresses. For details, please refer to IONOS's privacy policy:",
     'hosting_4': "IONOS is used on the basis of Art. 6 para. 1 lit. f GDPR. We have a legitimate interest in displaying our website as reliably as possible. If a corresponding consent has been requested, the processing is carried out exclusively on the basis of Art. 6 para. 1 lit. a GDPR and § 25 para. 1 TTDSG, insofar as the consent includes the storage of cookies or access to information in the user's terminal device (e.g. device fingerprinting) within the meaning of the TTDSG. Consent can be revoked at any time.",
-    'general': '3 General notes and mandatory information',
+    'general': '3. General notes and mandatory information',
     'general_1': 'Data protection',
     'general_1_1': 'The operators of these pages take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the statutory data protection regulations and this privacy policy. When you use this website, various personal data is collected. Personal data is data with which you can be personally identified. This privacy policy explains what data we collect and what we use it for. It also explains how and for what purpose this is done. We would like to point out that data transmission over the Internet (e.g., when communicating by email) may have security vulnerabilities. Complete protection of data against access by third parties is not possible.',
     'general_2': 'Note on the responsible body',
@@ -272,7 +277,7 @@ export class ContentService {
       'data_protection': 'Datenschutz',
       'address': 'Bornheimer Landwehr 33 60385 Frankfurt am Main Germany',
       'mobile': 'Telefon: +49 179 221 1285',
-      'mail': 'E-mail: info@liv-innovation.com',
+      'mail': ' info@liv-innovation.com',
       'imprint_content_1': 'Umsatzsteueridentifikationsnummer nach § 27a UStG: DE367333136',
       'liability': 'Haftungsbeschränkung:',
       'liability_1': 'Inhalte der Internet-Präsenz der LIV Innovation',
@@ -314,7 +319,7 @@ export class ContentService {
       'hosting_3': "Anbieter ist die IONOS SE, Elgendorfer Str. 57, 56410 Montabaur (nachfolgend IONOS). Wenn Sie unsere Website besuchen, erfasst IONOS verschiedene Logfiles inklusive Ihrer IP-Adressen. Details entnehmen Sie der Datenschutzerklärung von IONOS:",
       'hosting_4': "Die Verwendung von IONOS erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Wir haben ein berechtigtes Interesse an einer möglichst zuverlässigen Darstellung unserer Website. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit widerrufbar.",
       
-      'general': '3 General notes and mandatory information',
+      'general': '3. General notes and mandatory information',
       'general_1': 'Datenschutz',
       'general_1_1': 'Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung. Wenn Sie diese Website benutzen, werden verschiedene personenbezogene Daten erhoben. Personenbezogene Daten sind Daten, mit denen Sie persönlich identifiziert werden können. Die vorliegende Datenschutzerklärung erläutert, welche Daten wir erheben und wofür wir sie nutzen. Sie erläutert auch, wie und zu welchem Zweck das geschieht. Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.',
       

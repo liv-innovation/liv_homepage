@@ -22,13 +22,13 @@
 .dp__heading {
     font-weight: 700;
     padding-bottom: 12px;
-    padding-top: 20px;
+    padding-top: 12px;
     color: var(--title-color);
 }
 
 .dp__sub__heading {
     font-weight: 600;
-    padding-top: 20px;
+    padding-top: 8px;
 }
 
 .dp__pre {
