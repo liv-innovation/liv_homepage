@@ -23,6 +23,7 @@
     font-weight: 700;
     padding-bottom: 12px;
     padding-top: 20px;
+    color: var(--title-color);
 }
 
 .dp__sub__heading {
