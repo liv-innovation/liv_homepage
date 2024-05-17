@@ -23,7 +23,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/assets/logo.png"
+              "src/assets/logo_mini.svg"
             ],
             "styles": [
               "src/styles.css"
