@@ -23,7 +23,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/assets/LIV Innovation_Icon_color.png"
+              "src/assets/homepage.png"
             ],
             "styles": [
               "src/styles.css"
